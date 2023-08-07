@@ -29,6 +29,12 @@ document.querySelectorAll(".square").length
 document.querySelector("h2").textContent
 ```
 
+Exercise 2: 
+
+```JS
+
+```
+
 ## Challenges: 
 
 
