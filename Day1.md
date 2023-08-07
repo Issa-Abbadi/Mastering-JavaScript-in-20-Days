@@ -6,7 +6,7 @@
 - HTML is the NOUN
 - CSS is the  Adj
 - JS is the Verb
-- Refresh gets the old content of the page 
+- Refresh gets the old content of the page if the code in the console of the browser 
 
 ## Code Snippets:
 
@@ -42,6 +42,41 @@ document.querySelector("header h2").append("and love")
 ```
 
 ## Challenges: 
+
+challenge 1: 
+
+```JS
+let a = 5;
+let b = 12;
+let c = 4.6;
+
+// Only change code below this line
+a *= 5;
+b *= 3;
+c *= 10;
+```
+
+
+challenge 2: 
+
+```JS
+let myStr = "This is the first sentence.";
+
+myStr += " This is the second sentence."
+
+```
+
+
+challenge 3: 
+
+```JS
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const secondToLastLetterOfLastName = lastName[ lastName.length -2]; // Change this line
+
+```
 
 
 
