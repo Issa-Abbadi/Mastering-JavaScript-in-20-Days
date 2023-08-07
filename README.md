@@ -11,3 +11,5 @@ Frontend Masters -> JS Course https://frontendmasters.com/courses/javascript-fir
 ## Covered coding exercises during the challenge:
 
 ## Reference for all the sub-pages:
+
+-  [**Day 1**](https://github.com/Issa-Abbadi/Mastering-JavaScript-in-20-Days/main/Day1.md)
