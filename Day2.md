@@ -21,6 +21,11 @@ Important Code:
 Exercise 1: 
 
 ```JS
+document.getElementById("pl-name).append(" Vakil")
+document.title.indexOf("T")
+document.title.includes("JavaScript")
+document.querySelector("header h1).textContent = document.querySelector("header h1).textContent.toUpperCase();
+
 
 ```
 
