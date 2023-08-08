@@ -7,7 +7,7 @@
 - "lonely" == ["lonely"] -> true
 - important methods for arrays .sort() .join(" & ") .concat([4,5,6])
 - mutable vs immutable (.freeze() ->  to make it immutable)
-- 
+- console.error() console.warn()
   
 
 ## Code Snippets:
