@@ -48,6 +48,22 @@ spiceGirls.albums[1]
 spiceGirls.members[4].name
 ```
 
+Quiz part 1:
+```JS
+<script type="text/javascript">
+      const statement = document.getElementById("statement");
+      const optionButtons = document.querySelector("#options").children;
+      const explanation = document.getElementById("explaination");
+
+      const fact = {
+        statement: "Arrays are like objects",
+        answer: true,
+        explanation: "Arrays are a kind of object with special properties",
+      };
+
+      statement.textContent = fact.statement;
+```
+
 ## Challenges: 
 
 challenge 1: 
@@ -133,11 +149,38 @@ lookUpProfile("Akira", "likes");
 challenge 4: 
 
 ```JS
+ function reusableFunction() {
+   console.log("Hi World");
+ }
 
+ reusableFunction();
 ```
 
 challenge 5: 
 
 ```JS
+// Setup
+let sum = 0;
 
+function addThree() {
+  sum = sum + 3;
+}
+
+function addFive() {
+  sum += 5;
+}
+
+
+
+addThree();
+addFive();
+```
+
+
+challenge 6: 
+
+```JS
+function timesFive(num) {
+  return num * 5;
+}
 ```
