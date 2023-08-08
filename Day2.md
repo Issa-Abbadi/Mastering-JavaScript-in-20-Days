@@ -8,6 +8,7 @@
 - === -> strict
 - == -> loosey-goosy
 - let vs const vs var
+- statements vs expressions
   
 
 ## Code Snippets:
@@ -69,7 +70,10 @@ console.log(!!d); // true because the String "false" is considered true in boole
 challenge 2: 
 
 ```JS
-
+console.log(4 + 5 * "7"); // output is 39
+// because first "7" is converted to number 7 then
+// 5 * 7 is evaluated
+// then 4 + 35 is evaluated
 
 ```
 
@@ -77,6 +81,36 @@ challenge 2:
 challenge 3: 
 
 ```JS
+let result = 5 + 2 * 3 - 1; // result = 10
+// because it will evaluate depending on the priority of the operations
+// first multiply 2 * 3 = 6
+// then evaluate 5 + 6 -1 from left to right which is 10
 
+```
+
+
+challenge 4: 
+
+```JS
+
+let x = 10;
+let y = '10';
+console.log(x == y); // true because "==" only compares the values not the types
+console.log(x === y); // false because "===" compares values and types which don't match
+
+```
+
+challenge 5: 
+
+```JS
+let num = "15";
+let isPositive = true;
+let result = (num > 10 && isPositive) || num < 0;
+console.log(result); // output true
+// steps
+// evaluate 15 > 10 which is true
+// evaluate true && true which is true because isPositive is true
+// 15 < 0 is false
+// true || false is true 
 
 ```
