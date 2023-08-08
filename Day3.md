@@ -7,6 +7,7 @@
 - "lonely" == ["lonely"] -> true
 - important methods for arrays .sort() .join(" & ") .concat([4,5,6])
 - mutable vs immutable (.freeze() ->  to make it immutable)
+- 
   
 
 ## Code Snippets:
@@ -41,7 +42,10 @@ Exercise 2:
 Exercise 3: 
 
 ```JS
-
+spiceGirls.motto
+spiceGirls.members[1]
+spiceGirls.albums[1]
+spiceGirls.members[4].name
 ```
 
 ## Challenges: 
