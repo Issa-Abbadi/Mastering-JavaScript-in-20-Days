@@ -15,7 +15,26 @@ Important Code:
 Exercise 1: 
 
 ```JS
+let firstName = "Issa";
+let lastName = "Abbadi";
+if (firstName.length > lastName.length) {
+console.log(firstName,  "is longer than ", lastName);
+}
 
+function isEmpty(array) {
+  if(array.length === 0) {
+ return true;
+} else {
+return false;
+}
+}
+
+if([]) {
+  console.log("truthy");
+} else {
+  console.log("falsy");
+
+}
 
 ```
 
