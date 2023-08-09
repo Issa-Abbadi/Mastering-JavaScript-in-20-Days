@@ -4,13 +4,15 @@
 ## I Learned: 
 
 - Arrow functions
-- return undefined is the default return 
+- return undefined is the default return
+- let and var scopes
   
 
 ## Code Snippets:
 
 Important Code: 
 ```JS
+const mul = x => x*x
 ```
 
 Exercise 1: 
@@ -33,7 +35,15 @@ function longerThan(a1, a2){
 Exercise 2: 
 
 ```JS
+const divide = (x,y) => x/y;
 
+const whisper = (text) => {
+const lc =text.toLowerCase();
+console.log(lc);
+return lc;
+}
+
+const shorterThan = (a1, a2) => a1.length < a2.length;
 ```
 
 Exercise 3: 
