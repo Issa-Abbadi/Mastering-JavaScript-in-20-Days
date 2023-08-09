@@ -163,7 +163,9 @@ myOutfit();
 
 
 challenge 4: 
-function nextInLine(arr, item) {
+
+```JS
+ function nextInLine(arr, item) {
   arr[arr.length] = item
   const r = arr[0];
   for(let i=1; i<arr.length ; i++){
@@ -182,6 +184,4 @@ let testArr = [1, 2, 3, 4, 5];
 console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
-```JS
- 
 ```
