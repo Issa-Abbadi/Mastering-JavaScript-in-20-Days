@@ -107,7 +107,26 @@ Quiz part 2:
 challenge 1: 
 
 ```JS
+// Declare the myGlobal variable below this line
+let myGlobal = 10;
 
+function fun1() {
+  oopsGlobal = 5;
+
+}
+
+// Only change code above this line
+
+function fun2() {
+  let output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
 ```
 
 
@@ -115,19 +134,54 @@ challenge 1:
 challenge 2: 
 
 ```JS
+function myLocalScope() {
+  // Only change code below this line
+  let myVar;
+  console.log('inside myLocalScope', myVar);
+}
+myLocalScope();
 
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+console.log('outside myLocalScope', myVar);
 ```
 
 
 challenge 3: 
 
 ```JS
+// Setup
+const outerWear = "T-Shirt";
 
+function myOutfit() {
+  let outerWear = "sweater";
+  return outerWear;
+}
+
+myOutfit();
 ```
 
 
 challenge 4: 
+function nextInLine(arr, item) {
+  arr[arr.length] = item
+  const r = arr[0];
+  for(let i=1; i<arr.length ; i++){
+      arr[i-1] = arr[i];
+  }
+  return r;
+  
+  return item;
+  // Only change code above this line
+}
 
+// Setup
+let testArr = [1, 2, 3, 4, 5];
+
+// Display code
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
 ```JS
  
 ```
