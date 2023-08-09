@@ -3,7 +3,8 @@
 
 ## I Learned: 
 
-- 
+- Arrow functions
+- return undefined is the default return 
   
 
 ## Code Snippets:
@@ -15,6 +16,17 @@ Important Code:
 Exercise 1: 
 
 ```JS
+function multiply(a,b) {
+  return a * b;
+}
+
+const yell = function (saying) {
+return saying.toUpperCase();
+}
+
+function longerThan(a1, a2){
+  return a1.length > a2.length;
+}
 
 ```
 
