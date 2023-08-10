@@ -10,6 +10,9 @@
 
 Important Code: 
 ```JS
+for(let n of numbers) {
+  console.log(n);
+}
 ```
 
 Exercise 1: 
@@ -82,7 +85,7 @@ challenge 3:
 ```
 
 
-let testArr = [1, 2, 3, 4, 5];
+
 
 // Display code
 console.log("Before: " + JSON.stringify(testArr));
