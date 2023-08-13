@@ -3,7 +3,10 @@
 
 ## I Learned: 
 
-- 
+- promise (pending / fulfilled / rejected)
+- await
+- .then()
+  
   
 
 ## Code Snippets:
