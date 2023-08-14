@@ -7,6 +7,9 @@
 - await
 - .then()
 - async
+- Modules (import / export)
+- Browser Debugger
+- try catch
   
   
 
