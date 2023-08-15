@@ -3,7 +3,9 @@
 
 ## I Learned: 
 
-- 
+- Thread of Execution + Memory + Call Stack
+- pass functions as parameters
+- Pair Programming
   
   
 
@@ -21,18 +23,7 @@ Exercise 1:
 
 ```
 
-Exercise 2: 
 
-```JS
-
-```
-
-Exercise 3: 
-
-```JS
-
-
-```
 
 
 
