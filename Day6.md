@@ -130,12 +130,7 @@ Doggos Part2:
       renderQuiz(imgUrl, correctAnswer, choices);
 ```
 
-## Challenges: 
+## Project:
 
-challenge 1: 
-
-```JS
-
-```
 
 
