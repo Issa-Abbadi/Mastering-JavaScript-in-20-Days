@@ -19,3 +19,4 @@ Frontend Masters -> JS Course https://frontendmasters.com/courses/javascript-fir
 -  [**Day 5**](https://github.com/Issa-Abbadi/Mastering-JavaScript-in-20-Days/blob/main/Day5.md)
 -  [**Day 6**](https://github.com/Issa-Abbadi/Mastering-JavaScript-in-20-Days/blob/main/Day6.md)
 -  [**Day 7**](https://github.com/Issa-Abbadi/Mastering-JavaScript-in-20-Days/blob/main/Day7.md)
+-  [**Day 8**](https://github.com/Issa-Abbadi/Mastering-JavaScript-in-20-Days/blob/main/Day8.md)
