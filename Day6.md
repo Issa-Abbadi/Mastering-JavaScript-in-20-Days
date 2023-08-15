@@ -131,6 +131,7 @@ Doggos Part2:
 ```
 
 ## Project:
+-  [**Characters**](https://github.com/Issa-Abbadi/Mastering-JavaScript-in-20-Days/blob/main/characters.mp4)
 
 
 
