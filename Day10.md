@@ -3,7 +3,8 @@
 
 ## I Learned: 
 
-- 
+- call back queue
+- Event Loop
   
 
 ## Code Snippets:
