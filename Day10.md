@@ -5,6 +5,7 @@
 
 - call back queue
 - Event Loop
+- Promises
   
 
 ## Code Snippets:
