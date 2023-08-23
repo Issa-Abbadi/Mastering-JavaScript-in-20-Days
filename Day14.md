@@ -1,9 +1,11 @@
-# Day 11
+# Day 14
 
 
 ## I Learned: 
 
-- 
+- types in JS
+- undefined vs undeclared vs uninitionalized
+- NaN , -0
   
 
 ## Code Snippets:
