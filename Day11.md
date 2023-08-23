@@ -17,24 +17,3 @@ Important Code:
 
 ```
 
-## challenges:
-
-challenge 1:
-
-```JS
-
-```
-
-
-challenge 2:
-
-```JS
-
-```
-
-
-challenge 3:
-
-```JS
-
-```
