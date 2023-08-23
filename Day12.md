@@ -1,6 +1,6 @@
 # Day 12
 
-##This day is Optional
+## This day is Optional
 
 ## I Learned: 
 
